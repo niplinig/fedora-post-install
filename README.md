@@ -48,5 +48,6 @@ unzip gradle-7.5.1-bin.zip &&
 rm gradle-7.5.1-bin.zip &&
 cd gradle-7.5.1/bin &&
 ./gradle &&
-export PATH=$PATH:/opt/gradle/gradle-7.5.1/bin
+export PATH=$PATH:/opt/gradle/gradle-7.5.1/bin &&
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-17.0.4.0.8-1.fc36.x86_64/bin/java
 ```
