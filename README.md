@@ -51,3 +51,10 @@ cd gradle-7.5.1/bin &&
 echo -e 'export PATH=$PATH:/opt/gradle/gradle-7.5.1/bin\nexport JAVA_HOME=/usr/lib/jvm/java-17-openjdk-17.0.4.0.8-1.fc36.x86_64/\nexport ANDROID_HOME=~/Android/tools/bin/\nexport ANDROID_SDK_ROOT=~/Android/cmdline-tools/latest/'>> ~/.bashrc &&
 source ~/.bashrc
 ```
+export PATH=$PATH:/opt/gradle/gradle-7.5.1/bin
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-17.0.4.0.8-1.fc36.x86_64/
+export ANDROID_HOME=~/Android/
+export ANDROID_SDK_ROOT=~/Android/cmdline-tools/latest/
+export PATH=$PATH:$ANDROID_HOME/platform-tools/
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin/
+export PATH=$PATH:$ANDROID_HOME/emulator/
