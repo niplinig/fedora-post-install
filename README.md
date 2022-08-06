@@ -28,7 +28,7 @@ reboot
 Cordova requirements
 
 ```
-dnf install java-17-openjdk-devel zlib.i686 ncurses-libs.i686 bzip2-libs.i686 -y &&
+dnf install java-11-openjdk-devel zlib.i686 ncurses-libs.i686 bzip2-libs.i686 -y &&
 cd ~ &&
 wget https://dl.google.com/android/repository/commandlinetools-linux-8512546_latest.zip &&
 unzip commandlinetools-linux-8512546_latest.zip &&
@@ -54,10 +54,11 @@ source ~/.bashrc
 
 ```
 export PATH=$PATH:/opt/gradle/gradle-7.5.1/bin
-export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-17.0.4.0.8-1.fc36.x86_64/
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-11.0.16.0.8-1.fc36.x86_64
 export ANDROID_HOME=~/Android/
 export ANDROID_SDK_ROOT=~/Android/cmdline-tools/latest/
 export PATH=$PATH:$ANDROID_HOME/platform-tools/
+export PATH=$PATH:$ANDROID_HOME/tools/
 export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin/
 export PATH=$PATH:$ANDROID_HOME/emulator/
 ```
