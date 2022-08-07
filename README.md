@@ -48,10 +48,10 @@ cd cmdline-tools/latest/bin &&
 cd /opt &&
 mkdir gradle &&
 cd gradle &&
-wget https://services.gradle.org/distributions/gradle-7.5.1-bin.zip &&
-unzip gradle-7.5.1-bin.zip &&
-rm gradle-7.5.1-bin.zip &&
-cd gradle-7.5.1/bin &&
+wget https://downloads.gradle-dn.com/distributions/gradle-6.4-bin.zip &&
+unzip gradle-6.4-bin.zip &&
+rm gradle-6.4-bin.zip &&
+cd gradle-6.4/bin &&
 ./gradle &&
 echo -e 'export PATH=$PATH:/opt/gradle/gradle-7.5.1/bin\nexport JAVA_HOME=/usr/lib/jvm/java-17-openjdk-17.0.4.0.8-1.fc36.x86_64/\nexport ANDROID_HOME=~/Android/tools/bin/\nexport ANDROID_SDK_ROOT=~/Android/cmdline-tools/latest/'>> ~/.bashrc &&
 source ~/.bashrc
