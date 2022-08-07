@@ -60,11 +60,6 @@ source ~/.bashrc
 ```
 export PATH=$PATH:/opt/gradle/gradle-7.5.1/bin
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-11.0.16.0.8-1.fc36.x86_64
-export ANDROID_HOME=~/Android/
-export ANDROID_SDK_ROOT=~/Android/cmdline-tools/latest/
-export PATH=$PATH:$ANDROID_HOME/platform-tools/
-export PATH=$PATH:$ANDROID_HOME/tools/
-export PATH=$PATH:$ANDROID_HOME/build-tools/
-export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin/
-export PATH=$PATH:$ANDROID_HOME/emulator/
+export ANDROID_SDK_ROOT=~/Android/Sdk/
+export PATH=$PATH:~/Android/Sdk/cmdline-tools/latest/bin/
 ```
