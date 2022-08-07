@@ -65,11 +65,13 @@ git config --global user.name "Nicolas Plaza"
 
 ```
 
+```
 export PATH=$PATH:/opt/gradle/gradle-7.5.1/bin/
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-11.0.16.0.8-1.fc36.x86_64
-export ANDROID_SDK_ROOT=~/Android/Sdk/
-export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools/
-export PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin/
-export PATH=$PATH:$ANDROID_SDK_ROOT/emulator/
-export PATH=$PATH:$ANDROID_SDK_ROOT/tools/
+export ANDROID_SDK_ROOT=~/Android/Sdk
+export CAPACITOR_ANDROID_STUDIO_PATH=/opt/android-studio/bin/studio.sh
+export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+export PATH=$PATH:$ANDROID_SDK_ROOT/tools
+export PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin
+export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
 ```
