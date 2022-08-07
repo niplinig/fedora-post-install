@@ -75,3 +75,13 @@ export PATH=$PATH:$ANDROID_SDK_ROOT/tools
 export PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin
 export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
 ```
+
+MySQL
+
+```
+
+systemctl start mysqld
+systemctl status mysqld
+mysql_secure_installation (1 vez)
+
+```
