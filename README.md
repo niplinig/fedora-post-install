@@ -1,7 +1,7 @@
 # fedora-post-install
 Post install scripts for fedora
 
-```
+```bash
 dnf clean all &&
 free &&
 echo -e '# Added for speed\nfastestmirror=True\nmax_parallel_downloads=10\ndefaultyes=True\nkeepcache=True' >> /etc/dnf/dnf.conf &&
@@ -32,7 +32,7 @@ reboot
 ```
 Cordova requirements
 
-```
+```bash
 dnf install java-11-openjdk-devel zlib.i686 ncurses-libs.i686 bzip2-libs.i686 -y &&
 cd ~ &&
 wget https://dl.google.com/android/repository/commandlinetools-linux-8512546_latest.zip &&
@@ -57,15 +57,14 @@ echo -e 'export PATH=$PATH:/opt/gradle/gradle-7.5.1/bin\nexport JAVA_HOME=/usr/l
 source ~/.bashrc
 ```
 
-```
-
+```bash
 git config --global user.email "niplinig@espol.edu.ec"
 git config --global user.name "Nicolas Plaza"
-
-
 ```
 
-```
+copy to /.bashrc
+
+```bash
 export PATH=$PATH:/opt/gradle/gradle-7.5.1/bin/
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-11.0.16.0.8-1.fc36.x86_64
 export ANDROID_SDK_ROOT=~/Android/Sdk
@@ -76,12 +75,13 @@ export PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin
 export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
 ```
 
+run `source /.bashrc`
+
+
 MySQL
 
-```
-
+```bash
 systemctl start mysqld
 systemctl status mysqld
 mysql_secure_installation (1 vez)
-
 ```
