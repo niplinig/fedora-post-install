@@ -2,6 +2,10 @@
 Post install scripts for fedora
 
 ```bash
+curl https://raw.githubusercontent.com/niplinig/fedora-post-install/main/script.sh | bash
+```
+
+```bash
 dnf clean all &&
 free &&
 echo -e '# Added for speed\nfastestmirror=True\nmax_parallel_downloads=10\ndefaultyes=True\nkeepcache=True' >> /etc/dnf/dnf.conf &&
