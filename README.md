@@ -1,8 +1,8 @@
 # fedora-post-install
 Post install scripts for fedora
 
-```bash
-curl https://raw.githubusercontent.com/niplinig/fedora-post-install/main/script.sh | bash
+```
+git clone https://github.com/niplinig/fedora-post-install.git
 ```
 
 ```bash
