@@ -89,3 +89,11 @@ systemctl start mysqld
 systemctl status mysqld
 mysql_secure_installation (1 vez)
 ```
+
+Django & MySQL
+```bash
+
+dnf install python3-devel && \
+dnf group install "C Development Tools and Libraries" "Development Tools"
+
+```
