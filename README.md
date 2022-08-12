@@ -95,5 +95,5 @@ Django & MySQL
 
 dnf install python3-devel && \
 dnf group install "C Development Tools and Libraries" "Development Tools"
-
+pip install mysqlclient
 ```
