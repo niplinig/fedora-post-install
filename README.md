@@ -97,3 +97,9 @@ dnf install python3-devel && \
 dnf group install "C Development Tools and Libraries" "Development Tools"
 pip install mysqlclient
 ```
+
+In a django project
+```bash
+pip install -U django-jazzmin
+pip install py
+```
