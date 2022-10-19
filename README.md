@@ -25,7 +25,6 @@ dnf group upgrade --with-optional Multimedia -y &&
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo &&
 flatpak install flathub com.mattjakeman.ExtensionManager org.gustavoperedo.FontDownloader com.github.tchx84.Flatseal -y
 dnf check-update &&
-dnf install code -y &&
 dnf update --refresh -y &&
 dnf clean all &&
 free &&
