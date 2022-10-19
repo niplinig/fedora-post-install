@@ -34,6 +34,7 @@ reboot
 ```bash
 git config --global user.email "niplinig@espol.edu.ec"
 git config --global user.name "Nicolas Plaza"
+git config --global init.defaultBranch 'main'
 ```
 
 MySQL
